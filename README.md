@@ -2,28 +2,21 @@
   <a href="https://rfcsapi.com/" target="blank"><img src="https://rfcsapi.com/assets/images/logo.png" width="320" alt="Boilerplate Plaftorm" /></a>
 </p>
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-## Features ✨
-
-### Modules
-
-1. [Boilerplate Backend Server](https://github.com/ialopezg/boilerplate.git). Core module. Will expose the Boilerplate Platform API for its Business Logic with public and private API endpoints. Will not be direct accesible by common users or apps only if business rules are applied. This application will be intended only for act as an intermediary to response all request coming from any application that is contained in Boilerplate Platform.
-2. [Boilerplate Back Office](https://github.com/ialopezg/boilerplate.git) Administrator Office for Boilerplate Platform. All administrative task will be done accross this app. Supports web, desktop, and mobile environments.
-3. [Boilerplate Client App](https://github.com/ialopezg/boilerplate.git). Intended to be used for common users that could donwload and install it into their devices. Its use will be regulated and normalized by the business logic and rules could be applied. Supports web, desktop, and mobile environments.
-4. [Boilerplate Client Web](https://github.com/ialopezg/boilerplate.git). Main frontend of Boilerplate Platforms.
-5. [Boilerplate Resource Assets](https://github.com/ialopezg/boilerplate.git). Contains all assets as images, animations, fonts, and all related content specific for the UI/UX.
-
-### Technologies
-
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 ![Java](https://img.shields.io/badge/-Java-000000?style=flat&logo=java)
 ![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=flutter)
 ![Dart](https://img.shields.io/badge/-Dart-000000?style=flat&logo=dart)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=postgresql)
+
+## Features ✨
+
+1. [Boilerplate Backend Server](https://github.com/ialopezg/boilerplate.git). Core module. Will expose the Boilerplate Platform API for its Business Logic with public and private API endpoints. Will not be direct accesible by common users or apps only if business rules are applied. This application will be intended only for act as an intermediary to response all request coming from any application that is contained in Boilerplate Platform.
+2. [Boilerplate Back Office](https://github.com/ialopezg/boilerplate.git) Administrator Office for Boilerplate Platform. All administrative task will be done accross this app. Supports web, desktop, and mobile environments.
+3. [Boilerplate Client App](https://github.com/ialopezg/boilerplate.git). Intended to be used for common users that could donwload and install it into their devices. Its use will be regulated and normalized by the business logic and rules could be applied. Supports web, desktop, and mobile environments.
+4. [Boilerplate Client Web](https://github.com/ialopezg/boilerplate.git). Main frontend of Boilerplate Platforms.
+5. [Boilerplate Resource Assets](https://github.com/ialopezg/boilerplate.git). Contains all assets as images, animations, fonts, and all related content specific for the UI/UX.
 
 ## Getting started ✨
 
