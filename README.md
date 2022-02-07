@@ -8,27 +8,41 @@
 
 ## Features ✨
 
-1. [SOIOT Backend Server](https://github.com/signal-owl/soiot-backend). Core module. Will expose the SOIOT Platform API for its Business Logic with public and private API endpoints. Will not be direct accesible by common users or apps only if business rules are applied. This application will be intended only for act as an intermediary to response all request coming from any application that is contained in SOIOT Platform.
-2. [SOIOT Back Office](https://github.com/signal-owl/soiot-admin) Administrator Office for SOIOT Platform. All administrative task will be done accross this app. Supports web, desktop, and mobile environments.
-3. [SOIOT Client App](https://github.com/signal-owl/soiot-app). Intended to be used for common users that could donwload and install it into their devices. Its use will be regulated and normalized by the business logic and rules could be applied. Supports web, desktop, and mobile environments.
-4. [SOIOT Client Web](https://github.com/signal-owl/soiot-web). Main frontend of SOIOT Platforms.
-5. [SOIOT Resource Assets](https://github.com/signal-owl/soiot-assets). Contains all assets as images, animations, fonts, and all related content specific for the UI/UX.
+### Modules
+
+1. [Boilerplate Backend Server](https://github.com/ialopezg/boilerplate.git). Core module. Will expose the Boilerplate Platform API for its Business Logic with public and private API endpoints. Will not be direct accesible by common users or apps only if business rules are applied. This application will be intended only for act as an intermediary to response all request coming from any application that is contained in Boilerplate Platform.
+2. [Boilerplate Back Office](https://github.com/ialopezg/boilerplate.git) Administrator Office for Boilerplate Platform. All administrative task will be done accross this app. Supports web, desktop, and mobile environments.
+3. [Boilerplate Client App](https://github.com/ialopezg/boilerplate.git). Intended to be used for common users that could donwload and install it into their devices. Its use will be regulated and normalized by the business logic and rules could be applied. Supports web, desktop, and mobile environments.
+4. [Boilerplate Client Web](https://github.com/ialopezg/boilerplate.git). Main frontend of Boilerplate Platforms.
+5. [Boilerplate Resource Assets](https://github.com/ialopezg/boilerplate.git). Contains all assets as images, animations, fonts, and all related content specific for the UI/UX.
+
+### Technologies
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+![Java](https://img.shields.io/badge/-Java-000000?style=flat&logo=java)
+![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=flutter)
+![Dart](https://img.shields.io/badge/-Dart-000000?style=flat&logo=dart)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=postgresql)
 
 ## Getting started ✨
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/signal-owl/soiot-platform.git
+git clone https://github.com/ialopezg/boilerplate.git
 
 # 2. Enter your newly-cloned folder
-cd soiot-platform
+cd boilerplate
 
 # 3. Update latest repository commits from origin
 git submodule update --remote --merge
 
-# 4. Enter desire repository and follow the instructions inside the repository chosen.
+# 4. Sync modules
+git submodule sync
 
-# 5. Read the documentation linked for each module for more details.
+# 5. Enter desire repository and follow the instructions inside the repository chosen.
+
+# 6. Read the documentation linked for each module for more details.
 ```
 
 ## Documentation ✨
@@ -71,7 +85,7 @@ Usually in geolocation service it only shows devices that are between10 - 20 km 
 
 ## Support ✨
 
-[SOIOT – Platform](https://github.com/signal-owl/soiot-platform.git) is proprietary licensed project. It can grow thanks to the sponsors and support by the amazing backers.
+[Boilerplate Platform](https://github.com/ialopezg/boilerplate.git) is proprietary licensed project. It can grow thanks to the sponsors and support by the amazing backers.
 
 ## Contributors ✨
 
@@ -82,15 +96,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?s=100&v=4" width="100px;" alt="Isidro A. López G."/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="https://github.com/signal-owl/soiot-admin/issues?q=author%3Aialopezg" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?s=100&v=4" width="100px;" alt="Isidro A. López G."/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="https://github.com/ialopezg/boilerplate/issues?q=author%3Aialopezg" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
 
 ## License
 
-Copyright © 2022 - SOIOT. This source code is licensed under the Proprietary License found in the [LICENSE](LICENSE) file.
+Copyright © 2022 - Boilerplate Platform. This source code is licensed under the Proprietary License found in the [LICENSE](LICENSE) file.
 
 ---
 
-SOIOT - APP - by [SOIOT](https://signal-owl.co.za)
+BOILERPLATE Platform - by [Boilerplate Platform](https://rfcsapi.com/)
