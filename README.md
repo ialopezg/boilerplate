@@ -31,7 +31,7 @@
 
 | Repository | Issues | Pull Requests | Stars |
 |:---------- |:------ |:------------  |:----- |
-| **[ialopezg/mailer](https://github.com/ialopezg/maile)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/mailer.svg?style=social&label=Stars)](https://github.com/ialopezg/mailer) |
+| **[ialopezg/mailer](https://github.com/ialopezg/mailer)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/mailer.svg?style=social&label=Stars)](https://github.com/ialopezg/mailer) |
 
 
 ## Getting started ✨
