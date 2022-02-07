@@ -2,6 +2,10 @@
   <a href="https://rfcsapi.com/" target="blank"><img src="https://rfcsapi.com/assets/images/logo.png" width="320" alt="Boilerplate Plaftorm" /></a>
 </p>
 
+> One platform to rule and control all business logic
+
+<br>
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
@@ -9,14 +13,26 @@
 ![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=flutter)
 ![Dart](https://img.shields.io/badge/-Dart-000000?style=flat&logo=dart)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=postgresql)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Open Microservices Commitzen](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Open Microservices Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](https://github.com/oms-services/.github/blob/master/CODE_OF_CONDUCT.md)
+
 
 ## Features ✨
 
-1. [Boilerplate Backend Server](https://github.com/ialopezg/boilerplate.git). Core module. Will expose the Boilerplate Platform API for its Business Logic with public and private API endpoints. Will not be direct accesible by common users or apps only if business rules are applied. This application will be intended only for act as an intermediary to response all request coming from any application that is contained in Boilerplate Platform.
-2. [Boilerplate Back Office](https://github.com/ialopezg/boilerplate.git) Administrator Office for Boilerplate Platform. All administrative task will be done accross this app. Supports web, desktop, and mobile environments.
-3. [Boilerplate Client App](https://github.com/ialopezg/boilerplate.git). Intended to be used for common users that could donwload and install it into their devices. Its use will be regulated and normalized by the business logic and rules could be applied. Supports web, desktop, and mobile environments.
-4. [Boilerplate Client Web](https://github.com/ialopezg/boilerplate.git). Main frontend of Boilerplate Platforms.
-5. [Boilerplate Resource Assets](https://github.com/ialopezg/boilerplate.git). Contains all assets as images, animations, fonts, and all related content specific for the UI/UX.
+### Modules
+
+| Repository | Issues | Pull Requests | Stars |
+|:---------- |:------ |:------------  |:----- |
+| **[ialopezg/api-boilerplate](https://github.com/ialopezg/maile)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/api-boilerplate.svg?style=social&label=Stars)](https://github.com/ialopezg/api-boilerplate) |
+
+### Microservices
+
+| Repository | Issues | Pull Requests | Stars |
+|:---------- |:------ |:------------  |:----- |
+| **[ialopezg/mailer](https://github.com/ialopezg/maile)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/mailer.svg)](https://github.com/ialopezg/mailer/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/mailer.svg?style=social&label=Stars)](https://github.com/ialopezg/mailer) |
+
 
 ## Getting started ✨
 
@@ -92,7 +108,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?s=100&v=4" width="100px;" alt="Isidro A. López G."/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="https://github.com/ialopezg/boilerplate/issues?q=author%3Aialopezg" title="Bug reports">🐛</a></td>
   </tr>
 </table>
-
 
 ## License
 
