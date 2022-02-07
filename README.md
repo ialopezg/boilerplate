@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/signal-owl/soiot-assets/blob/main/logos/soiot-platform.png?raw=true" target="blank"><img src="https://github.com/signal-owl/soiot-assets/blob/main/logos/soiot-platform.png?raw=true" width="320" alt="SOIOT Plaftorm" /></a>
+  <a href="https://rfcsapi.com/" target="blank"><img src="https://rfcsapi.com/assets/images/logo.png" width="320" alt="Boilerplate Plaftorm" /></a>
 </p>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Features ✨
@@ -82,7 +82,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/JohanScheepers"><img src="https://avatars.githubusercontent.com/u/30056110?s=100&v=4" width="100px;" alt="Johan Scheepers"/><br /><sub><b>Johan Scheepers</b></sub></a><br /><a href="https://github.com/signal-owl/soiot-admin/issues?q=author%3AJohanScheepers" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?s=100&v=4" width="100px;" alt="Isidro A. López G."/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="https://github.com/signal-owl/soiot-admin/issues?q=author%3Aialopezg" title="Bug reports">🐛</a></td>
   </tr>
 </table>
