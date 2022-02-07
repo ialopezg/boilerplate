@@ -107,4 +107,4 @@ Copyright © 2022 - Boilerplate Platform. This source code is licensed under the
 
 ---
 
-BOILERPLATE Platform - by [Boilerplate Platform](https://rfcsapi.com/)
+BOILERPLATE Platform - by [Isidro A. López G.](https://ialopezg.com/)
