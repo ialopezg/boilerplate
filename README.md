@@ -94,7 +94,7 @@ Usually in geolocation service it only shows devices that are between10 - 20 km 
 
 ## Support ✨
 
-[Boilerplate Platform](https://github.com/ialopezg/boilerplate.git) is proprietary licensed project. It can grow thanks to the sponsors and support by the amazing backers.
+[Boilerplate Platform](https://github.com/ialopezg/boilerplate.git) is a MIT licensed project. It can grow thanks to the sponsors and support by the amazing backers.
 
 ## Contributors ✨
 
@@ -111,7 +111,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 ## License
 
-Copyright © 2022 - Boilerplate Platform. This source code is licensed under the Proprietary License found in the [LICENSE](LICENSE) file.
+Copyright © 2022 - Boilerplate Platform. This source code is licensed under MIT License found in the [LICENSE](LICENSE) file.
 
 ---
 
