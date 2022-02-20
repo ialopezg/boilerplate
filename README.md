@@ -25,7 +25,8 @@
 
 | Repository | Issues | Pull Requests | Stars |
 |:---------- |:------ |:------------  |:----- |
-| **[ialopezg/api-boilerplate](https://github.com/ialopezg/maile)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/api-boilerplate.svg?style=social&label=Stars)](https://github.com/ialopezg/api-boilerplate) |
+| **[ialopezg/api-boilerplate](https://github.com/ialopezg/api-boilerplate)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/api-boilerplate.svg)](https://github.com/ialopezg/api-boilerplate/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/api-boilerplate.svg?style=social&label=Stars)](https://github.com/ialopezg/api-boilerplate) |
+| **[ialopezg/administrator](https://github.com/ialopezg/administrator)** | [![GitHub Issues](https://img.shields.io/github/issues/ialopezg/administrator.svg)](https://github.com/ialopezg/administrator/issues) | [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ialopezg/administrator.svg)](https://github.com/ialopezg/administrator/pulls) | [![GitHub stars](https://img.shields.io/github/stars/ialopezg/administrator.svg?style=social&label=Stars)](https://github.com/ialopezg/administrator) |
 
 ### Microservices
 
