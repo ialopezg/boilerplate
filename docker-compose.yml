@@ -1,0 +1,82 @@
+version: '3.9'
+
+services:
+  gateway:
+    container_name: gateway
+    hostname: ${APP_HOST}
+    build: ./backend/gateway
+    restart: always
+    environment:
+      APP_MODE: ${APP_MODE:-development}
+      APP_PORT: ${APP_PORT:-5000}
+    command: npm run start:dev
+    ports:
+      - ${APP_PORT_OUT:-3000}:${APP_PORT:-5000}
+    volumes:
+      - ./backend/gateway:/var/www/gateway
+      - /var/www/gateway/node_modules
+    networks:
+      - frontend
+      - backend
+
+  user:
+    container_name: user
+    hostname: ${USER_SERVICE_HOST:-user}
+    build: ./backend/services/user_service
+    restart: always
+    environment:
+      APP_MODE: ${APP_MODE}
+      USER_SERVICE_HOST: ${USER_SERVICE_HOST:-user}
+      USER_SERVICE_PORT: ${USER_SERVICE_PORT:-3100}
+    command: npm run start:dev
+    ports:
+      - ${USER_SERVICE_PORT:-3100}:${USER_SERVICE_PORT:-3100}
+    volumes:
+      - ./backend/services/user_service:/var/www/user
+      - /var/www/user/node_modules
+    networks:
+      - backend
+
+  db:
+    image: postgres:latest
+    container_name: db
+    restart: always
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "root" ]
+      timeout: 45s
+      interval: 10s
+      retries: 10
+    environment:
+      POSTGRES_USERNAME: ${DB_ROOT_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_ROOT_PASSWORD:-postgres}
+    volumes:
+      - ${DB_VOLUME_PATH}:/var/lib/postgresql/data
+      - ./data/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - ${DB_LISTEN_PORT_OUT:-5432}:${DB_PORT:-5432}
+    networks:
+      - backend
+      - frontend
+
+  dbadmin:
+    container_name: dbadmin
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    ports:
+      - ${DB_ADMIN_PORT:-8080}:80
+    volumes:
+      - ${DB_ADMIN_VOLUME_PATH}:/root/.pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${DB_ADMIN_DEFAULT_EMAIL:-support@kolomax.site}
+      PGADMIN_DEFAULT_PASSWORD: ${DB_ADMIN_DEFAULT_PASSWORD:-admin}
+    depends_on:
+      - db
+    networks:
+      - backend
+      - frontend
+
+networks:
+  backend:
+    driver: bridge
+  frontend:
+    name: infrastructure
