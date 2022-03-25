@@ -1,2 +1,8 @@
 # OS
 .DS_Store
+
+# Local data
+/data/pgadmin
+/data/postgres
+/data/redis
+.env
